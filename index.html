@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Falcon</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="index.css" class="style">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/bcb482824c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+
+<!-- Nav Bar  -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">TEAM FALCON</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+
+        </ul>
+
+<!-- Off canvas -->
+        <!-- <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div>
+              Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images,
+              lists, etc.
+            </div>
+          </div>
+        </div> -->
+    
+      </div>
+    </div>
+  </nav>
+
+
+
+
+<!-- Slider Section -->
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="img/1.jpg" class="d-block w-100" alt="..." />
+          <div class="text-white carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1000">
+          <img src="img/3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/4.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+<!-- about section start -->
+<section class="about" id="about">
+    <div class="max-width">
+        <h2 class="title">About Us</h2>
+        <div class="about-content">
+            <div class="column left">
+                <img src="img/logo 2.png" alt="">
+            </div>
+            <div class="column right">
+                <div class="text">Team FALCON HERE <span class="typing-2"></span></div>
+                <ul>
+                    <p> ✓ We are Team Falcon of Government College Of Engineering and Rersearch, Avasari Khurd Pune. </p>
+                    <p>
+                        ✓ Unique and productive designation is my main target...I am always very interested in learning the new technologies with huge enthusiasm. • I am very facinated to design the Automotive systems and motorsport vechicle
+                        <p>
+                            ✓ As a hobby I love to Read every genre Books, writing poems and short inspirational articles , painting , Cooking etc.
+                        </p>
+                        <p>
+                            ✓ I have great fond of Sherlock Holmes novels and overall Self development books ✓As inspirational writer I must say , INSTEAD OF FORMAL KNOWLEDGE, CONTINUOUS LEARNING IS VERY IMPORTANT 70-80 hrs a week ...10 - 11 hrs a day .. would Able to do whatever
+                            you want to do...no Sunday.... no weekend..work super hard in every waking hours
+                        </p>
+                    </p>
+                </ul>
+
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Vision And Missions
+</button>
+
+<!-- Modal of Vision and Mission -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Vision & Missions</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <DIV>
+          <h3>VISION</h3>
+          <p1>"Competency through the designing and Engeenering"</p1>
+        </DIV> 
+        <div>
+          <h3>Missions</h3>
+          <ul>
+            <li> Devloping the innovatio culture and hard working ethics.</li>
+            <li>Design and manufature the best possible aircrafts </li>
+            <li>Making India sustainable through technical excellance</li>
+          </ul>
+    
+        </div> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      
+      
+      
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- services section start -->
+<section class="services" id="services">
+    <div class="max-width">
+        <h2 class="title">My services</h2>
+        <div class="serv-content">
+            <!-- Design  -->
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-paint-brush"></i>
+                    <div class="text">CAD & CAE</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                </div>
+            </div>
+            <!-- Production -->
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-chart-line"></i>
+                    <div class="text">PRODUCTION</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                </div>
+            </div>
+            <!-- PROGRAMMING -->
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-code"></i>
+                    <div class="text">PROGRAMMING</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                </div>
+            </div>
+            <!-- MARKETING -->
+            <div class="card" style="margin-top: 12px;">
+                <div class="box">
+                    <i class="fas fa-code"></i>
+                    <div class="text">Apps Design</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                </div>
+            </div>
+            <!-- FINANCE -->
+            <div class="card" >
+                <div class="box">
+                    <i class="fas fa-code"></i>
+                    <div class="text">FINANCE</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                </div>
+            </div>
+            <!-- SCRUM -->
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-code"></i>
+                    <div class="text">SCRUM</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- Faculty <Section>/</Section> -->
+
+<section id="fh5co-team" class="fh5co-bg-color" data-section="team">
+  <div class="fh5co-team">
+    <div class="container">
+        <div class="col-md-12 section-heading text-center" style="
+        margin-bottom: 90px" >
+          <h2 class="to-animate"><span>Meet The Team</span></h2>
+
+        </div>
+      
+      <div class="row">
+        <div class="col-md-4">
+          <div class="team-box text-center to-animate-2">
+            <div class="user"><img class="img-reponsive" src="img/sonawane sir.jpeg.jpg" alt="Roger Garfield"></div>
+            <h3>Dr.S.A Sonwane</h3>
+            <span class="position">Co-Founder, Lead Developer</span>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="team-box text-center to-animate-2">
+            <div class="user"><img class="img-reponsive" src="img/padwale sir.jpeg.jpg" alt="Roger Garfield"></div>
+            <h3>Mr.N.D. Padwale</h3>
+            <span class="position">Co-Founder, Product Designer</span>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="team-box text-center to-animate-2">
+            <div class="user"><img class="img-reponsive" src="img/kousal sir.jpeg.jpg" alt="Roger Garfield"></div>
+            <h3>Mr.AS. kousal</h3>
+            <span class="position">Full Stack Developer</span>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- map (Location of college) -->
+<div class="mapouter">
+  <div class="gmap_canvas">
+    <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Government College of Engineering and Research, Avasari, Pune&amp;t=k&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+    <a href="https://www.kokagames.com/fnf-friday-night-funkin-mods/">Friday Night Funkin Mods</a>
+  </div>
+    <style>
+    .mapouter{position:relative;text-align:right;width:100%;height:400px;}
+    .gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}
+    .gmap_iframe {height:400px!important;}
+    
+  </style>
+  </div>
+  </body>
+</html>

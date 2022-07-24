@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+    background-color: rgb(247, 240, 233);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    padding-top: 15px;
+    font-size: 40px;
+    margin-left: 10px;
+    justify-content: flex-start;
+}
+
+ul {
+    list-style: none;
+}
+
+.ctn {
+    padding: 10px 20px;
+    background: #1976d2;
+    border-radius: 30px;
+    color: black;
+}
+
+.main_img {
+    border-radius: 100%;
+    width: 80px;
+    margin-top: 0px;
+    padding-top: 0;
+}
+
+.nav-links {
+    margin-left: 38%;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-links {
+    font-weight: 530;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 30px;
+}
+
+.our_vision {
+    margin-top: 140px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text {
+    width: 66%;
+    text-align: center;
+    margin-left: 18%;
+    font-size: 30px;
+}
+
+.vision_mission_img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.our_Mision {
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.missin_article {
+    text-align: center;
+    font-size: 40px;
+    list-style-type: disc;
+}
+
+.footer_mission {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 700;
+}

@@ -1,0 +1,611 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*NavBar content */
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    padding-top: 15px;
+    font-size: 40px;
+    margin-left: 10px;
+    justify-content: flex-start;
+}
+
+.nav-links {
+    margin-left: 38%;
+}
+
+.main_img {
+    border-radius: 100%;
+    width: 80px;
+    margin-top: 0px;
+    padding-top: 0;
+}
+
+.active {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-links {
+    font-weight: 530;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 30px;
+}
+
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* Header Contents*/
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(drone_img._2jpg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: black;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: blue;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 10px 20px;
+    background: #1976d2;
+    border-radius: 30px;
+    color: black;
+}
+
+
+/* Content on Event Section */
+
+.ctn-1 {
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #1976d2;
+    border-radius: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.ctn-1:hover {
+    font-size: 30px;
+    padding: 15px 35px;
+    background: #0096c7;
+    border-radius: 30px;
+    color: black;
+    border: 2px black;
+}
+
+.ctn-2 {
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #1976d2;
+    border-radius: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.ctn-2:hover {
+    background: none;
+    border: 2px solid black;
+}
+
+.ctn-3 {
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: #1976d2;
+    border-radius: 30px;
+    color: black;
+}
+
+.ctn-3:hover {
+    background: none;
+    border: 2px solid blue;
+}
+
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col {
+    width: 400px;
+    height: 550px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 2px solid blue;
+    border-radius: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card_img {
+    border-radius: 25%;
+    width: 300px;
+}
+
+.events .row {
+    margin-top: 40px;
+}
+
+h4 {
+    font-size: 3vmin;
+    color: black;
+    margin: 20px auto;
+}
+
+p {
+    color: black;
+    padding: 0px 40px;
+}
+
+.events .ctn {
+    margin-top: 40px;
+}
+
+
+/* Explore Section */
+
+.explore {
+    padding-top: 0;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-image: url(WhatsApp\ Image\ 2022-07-21\ at\ 11.15.16\ PM.jpeg);
+    opacity: 1;
+}
+
+.explore-defination {
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.explore-content {
+    opacity: 1;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explre_font {
+    margin-top: 40%;
+    font-size: 50px;
+}
+
+.line-1 {
+    width: 150px;
+    height: 4px;
+    background: blue;
+    border-radius: 5px;
+}
+
+
+/* .explore-content .line {
+	   margin-bottom: 50px;
+       }
+        */
+
+.explore-content p {
+    color: black;
+}
+
+
+/*        
+       .explore-content .ctn {
+	   margin-top: 40px;
+       } */
+
+
+/* Learn Section */
+
+.learn {
+    margin-top: 10px;
+}
+
+.learn_earn {
+    display: flex;
+    width: 85%;
+}
+
+.team_text {
+    text-align: center;
+    font-size: 40px;
+}
+
+.line {
+    margin-bottom: 50px;
+}
+
+.content-col {
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.image-col {
+    width: 50%;
+}
+
+.ctn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*.content-col .ctn {
+        margin-left: -100px;
+    }*/
+
+.memeber_img {
+    width: 250px;
+    border-radius: 100%;
+}
+
+.linkdin {
+    height: 50px;
+    padding-left: 45px;
+}
+
+.heding_learn {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 40px;
+}
+
+.role_learn {
+    padding-left: 20%;
+    font-size: 30px;
+}
+
+.email_lern {
+    font-size: 20px;
+}
+
+.vision-mission-bg {
+    background-image: url(drone-expolre.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    width: 100%;
+    /* padding-bottom: 50px; */
+    /* height:1500px; */
+}
+
+.vision-mission-heading {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.vison_mission {
+    width: 100%;
+    display: flex;
+}
+
+.vison_mission-1 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.vision-mission-pic-1 {
+    width: 600px;
+    margin-left: 0%;
+    margin-right: 50px;
+}
+
+.vision-mission-pic-2 {
+    width: 650px;
+    margin-left: 50px;
+}
+
+.vision_heading {
+    font-size: 50px;
+    margin-left: 70px;
+}
+
+.sub_vison_mission-1 {
+    margin-left: 10%;
+}
+
+.sub_vison_mission-2 {
+    margin-left: 25%;
+}
+
+.line-3-a {
+    width: 150px;
+    height: 4px;
+    background: blue;
+    border-radius: 5px;
+    margin-left: 45%;
+}
+
+.line-3-b {
+    width: 150px;
+    height: 4px;
+    background: blue;
+    border-radius: 5px;
+    margin-left: 12%;
+}
+
+.line-3-c {
+    width: 150px;
+    height: 4px;
+    background: blue;
+    border-radius: 5px;
+    margin-left: 18%;
+}
+
+.mission-font {
+    font-family: 'caveat', cursive;
+    font-size: 60px;
+    /*padding-top: 80px;*/
+    margin-bottom: 15px;
+    width: 50%;
+    /* margin-left: 30px; */
+}
+
+.mission-font-image {
+    width: 50%;
+}
+
+.mission-font-2 {
+    font-family: 'caveat', cursive;
+    font-size: 60px;
+    margin-left: 10%;
+    /* padding-top: 80px; */
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.mission-font-2-image {
+    width: 50%;
+}
+
+.more-info-1 {
+    border: 1px;
+    border-color: none;
+    padding: 5px;
+    font-size: 40px;
+    font-family: serif;
+    background-color: #3a86ff;
+    border-radius: 2%;
+    margin-right: 10%;
+    margin-left: 7%;
+    padding: 10px 20px;
+    background: #1976d2;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.more-info-1:hover {
+    background: none;
+    border: 2px solid black;
+}
+
+.more-info-2:hover {
+    background: none;
+    border: 2px solid black;
+}
+
+.more-info-2 {
+    border: 1px;
+    border-color: none;
+    padding: 5px;
+    font-size: 40px;
+    font-family: serif;
+    background-color: #3a86ff;
+    margin-left: 18%;
+    border-radius: 2%;
+    padding: 10px 20px;
+    background: #1976d2;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq_ask {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    padding-top: 0%;
+}
+
+.FAQ_main_font {
+    margin-left: 70px;
+    font-size: 54px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.heading_faq {
+    margin-bottom: 10px;
+}
+
+.hiddenFeature {
+    font-family: sans-serif;
+    border: 1px black;
+    font-size: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.arrow_mark {
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 20px;
+}
+
+.faq_ask_note {
+    /* padding-top: 5px;	 */
+    font-family: sans-serif;
+}
+
+.footer {
+    width: auto;
+    padding: 20px 80px;
+    margin: 0;
+    /*background: rgb(255, 255, 255;*/
+    text-align: center;
+    background-image: url(collage_img.jpg);
+    background-size: cover;
+    background-position: -2px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.footer_heading {
+    width: 70%;
+    font-size: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: sans-serif;
+    color: whitesmoke;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    opacity: 1;
+}
+
+.footer_anchor {
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid;
+    padding: 5px 20px;
+    border-radius: 30px;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+/* .footer-social-bg{
+margin-top: 30px;
+background: whitesmoke ;
+width: 22%;
+border-radius: 30px;
+} */
+
+.footer-social {
+    display: flex;
+    margin-left: 38%;
+    padding-top: 15px;
+}
+
+.applogo {
+    width: 50px;
+    border: 1px;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.footer_paragraph {
+    margin-top: 10px;
+}
